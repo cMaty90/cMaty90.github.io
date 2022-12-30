@@ -1,0 +1,31 @@
+:root{
+ --color-blanco:#fff;
+ --color-titulos:#34F3DC;
+ --color-personajes:#F5FC16;
+}
+
+body{
+ background-color: #3E576C;
+}
+
+.links-personajes{
+ display: flex;
+ flex-direction: row;
+}
+.link-personaje{
+ color: var(--color-blanco);
+}
+.link-personaje:hover{
+ color: var(--color-personajes);
+}
+
+h5{
+ color: var(--color-titulos);
+}
+
+@media (max-width: 670px){
+ .links-personajes{
+  display: flex;
+  flex-direction: column;
+ }
+}

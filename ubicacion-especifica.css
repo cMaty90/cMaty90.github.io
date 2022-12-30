@@ -1,0 +1,34 @@
+:root{
+ --color-titulos: #34F3DC;
+  --color-fondo:#3E576C;
+  --color-blanco:#fff;
+ --color-residentes:#F5FC16;
+
+}
+
+body{
+ background-color: var(--color-fondo);
+}
+
+.links-residentes{
+ display: flex;
+ flex-direction: row;
+}
+
+.link-residente{
+ color: var(--color-blanco);
+}
+.link-residente:hover{
+ color: var(--color-residentes);
+}
+
+h5{
+ color: var(--color-titulos);
+}
+
+@media (max-width: 670px){
+ .links-residentes{
+  display: flex;
+  flex-direction: column;
+ }
+}

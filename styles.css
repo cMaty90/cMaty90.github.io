@@ -1,0 +1,97 @@
+:root {
+  --verde-rick: #75DA43;
+  --color-gris:#5B5B59;
+  --color-fondo:#3E576C;
+  --color-blanco:#fff;
+}
+
+.body-index{
+ background: url(./fondoLogin.png) no-repeat center center fixed;
+ background-size: cover;
+ overflow-y:hidden
+}
+
+/*-------------------LOGIN----------------------------*/
+.formulario{
+ position: absolute;
+ top: 25%;
+ left: 10%;
+ border: 0.2px solid lightcyan;
+ padding: 50px 20px;
+ margin-right: 25px;
+}
+
+.link-registro{
+ color:var(--verde-rick);
+}
+.link-registro:hover{
+ color: var(--verde-rick);
+}
+
+/*-----------REGISTRARSE------------*/
+.body-register{
+ background-color: var(--color-fondo);
+}
+
+.main-register{
+ width: 98vw;
+ height: 98vh;
+}
+.section-register{
+ background-color: var(--color-gris);
+ border: 0.2px solid var(--color-blanco);
+ width: 50%;
+ height: 40%;
+}
+
+label ,span{
+ color: var(--verde-rick);
+ font-family: 'Nerko One', cursive;
+}
+
+@media (max-width: 770px) {
+ .section-register{
+ width: 85%;
+ height: auto;
+}
+.main-register{
+ margin-top: 50px;
+ }
+}
+
+.link-log{
+ color: var(--verde-rick);
+}
+.link-log:hover{
+ color: var(--verde-rick);
+}
+
+/*-----------PERSONAJES------------*/
+.body-personajes{
+ background-color: var(--color-fondo);
+}
+
+a{
+ text-decoration: none;
+}
+.card{
+ background-color: var(--color-gris);
+}
+
+.personaje__nombre{
+ color: var(--color-blanco);
+ transition: color .2s ease-in-out;
+}
+.personaje__nombre:hover{
+ color: #34F3DC;
+}
+
+@media (max-width: 670px){
+ .container{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 80%;
+  margin-left: 5px;
+ }
+}

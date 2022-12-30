@@ -1,0 +1,79 @@
+:root {
+  --color-celeste: #34F3DC;
+  --color-fondo:#3E576C;
+  --color-blanco:#fff;
+  --verde-rick: #75DA43;
+}
+
+.nombre-usuario{
+ text-align: center;
+ color: var(--verde-rick);
+}
+
+body{
+ background-color: var(--color-fondo);
+}
+
+img{
+ border-radius: 5px;
+}
+.ruta-acceso__input{
+ width: 50%;
+ margin: 10px 10px;
+}
+
+.links-episodios{
+ display: flex;
+ flex-direction: row;
+}
+
+.link-episodio{
+ color: var(--color-blanco);
+}
+.link-episodio:hover{
+ color: var(--color-celeste);
+}
+.origin, .location{
+ color: var(--color-celeste);
+}
+.origin:hover, .location:hover{
+ color: var(--color-celeste);
+ cursor: pointer;
+}
+
+.info-personaje , .lista-episodios{
+ border: 0.2px solid var(--color-blanco);
+ border-radius: 5px;
+ background-color: #5B5B59;
+}
+
+h4{
+ color: var(--color-celeste);
+ text-align: center;
+}
+@media (max-width: 670px){
+ .ruta-acceso__input{
+  width: 90%;
+  margin-left: 5px;
+ }
+
+ .container-fluid img{
+  width: 96%;
+ }
+
+ .personaje-especifico{
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .lista-episodios{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+ }
+ .links-episodios{
+  display: flex;
+  flex-direction: column;
+ }
+}

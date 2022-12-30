@@ -1,0 +1,46 @@
+:root{
+ --color-blanco:#fff;
+}
+
+.favorito{
+ display: inline-block;
+ width: 20%;
+ height: 60%;
+ margin-left: 10px;
+ padding: 5px;
+ margin-left: 20px;
+}
+
+.favorito:hover{
+ cursor:pointer;
+}
+
+body{
+ background-color: #3E576C;
+}
+
+.card{
+ background-color: #5B5B59;
+}
+
+.personaje__link{
+ color: var(--color-blanco);
+ text-decoration: none;
+}
+.personaje__link:hover{
+ color: var(--color-blanco);
+}
+
+.personaje__nombre{
+ font-family: 'Nerko One', cursive;
+}
+
+@media (max-width: 670px){
+ .container{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 80%;
+  margin-left: 5px;
+ }
+}

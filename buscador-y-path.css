@@ -1,0 +1,38 @@
+.ruta-acceso__input{
+ width: 50%;
+ margin: 10px 10px;
+}
+
+.nombre-usuario{
+ text-align: center;
+ font-family: sans-serif;
+ color: #75DA43;
+}
+
+.buscador__input{
+ width: 50%;
+ margin-right: 5px;
+}
+
+.buscador__btn{
+ border: 1px solid #fff;
+}
+.buscador__btn:hover{
+ background-color: #7991A4;
+}
+
+@media (max-width: 670px){
+ .ruta-acceso__input{
+  width: 90%;
+  margin-left: 5px;
+ }
+ .buscador{
+  display: flex;
+  flex-direction: column;
+ }
+ .buscador__btn, .buscador__input{
+  width: 95%;
+  margin-left: 5px;
+  margin-top: 12px;
+ }
+}
